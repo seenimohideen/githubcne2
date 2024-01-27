@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="navbar">
+        <h2><i class="fa-brands fa-the-red-yeti"></i></i> Reps <b>ta</b></h2>
+        <div class="navbarlinks">
+            <p class="navbarlink"><a href="index.html">Home</a></p>
+            <p class="navbarlink"><a href="#prod">products</a></p>
+            <p class="navbarlink"><a href="#contact">contact</a></p>
+            <p class="navbarlink"><a href="#texts">Categories</a></p>
+            <p class="navbarlink"><a href="#customers">customers</a></p>
+
+        </div>
+        <div class="box">
+            <div class="cart-count">2</div>
+            <i class="fa-solid fa-cart-shopping" id="cart-icon" onclick="shows()"></i>
+        
+        </div>
+        <div class=" cart-active">
+            <div class="cart-title">Cart items</div>
+            <div class="cart-content">
+                <div class="cart-box">
+                    <div class="image">
+                        <img src="download.jpg" alt="" class="cart-img">
+                    </div>
+                    
+                    <div class="detail-box">
+                        <div class="cart-food-title">orange</div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs.100</div>
+                        </div>
+                        <input type="number" placeholder="1">
+                    </div>
+                    <i class="fa-solid fa-trash" id="cart-remove"></i>
+                </div>
+                <div class="cart-box">
+                    <div class="image">
+                        <img src="download (1).jpg" alt="" class="cart-img">
+                    </div>
+                    <div class="detail-box">
+                        <div class="cart-food-title">Strawberry</div>
+                        <div class="price-box">
+                            <div class="cart-price">Rs250</div>
+                        </div>
+                        <input type="number" placeholder="1">
+                    </div>
+                    <i class="fa-solid fa-trash" id="cart-remove"></i>
+                    
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs.350</div>
+            </div>
+            <button class="btn-buy" >place order</button>
+            <i class="fa-solid fa-x" id="cart-close" onclick="closed()"></i>
+
+        </div>
+        
+        <div class="toggle" onclick="showsnavbar()">
+            <i class="fa-solid fa-bars"  ></i>
+        </div>
+    </div>
+    <!--side-navbar-->
+    <div class="side-navbar">
+        <div class="cancel">
+            <p>
+                <i class="fa-solid fa-xmark" onclick="closenavbar()"></i>
+            </p>
+
+
+        </div>
+
+        <div class="side-navbar-link">
+            <p class="navbarlink"><a href="index.html">Home</a></p>
+            <p class="navbarlink"><a href="#prod">products</a></p>
+            <p class="navbarlink"><a href="#contact">contact</a></p>
+            <p class="navbarlink"><a href="#texts">Categories</a></p>
+            <p class="navbarlink"><a href="#customers">customers</a></p>
+
+            
+        </div>
+    </div>
+    <!--header-->
+    <div class="header">
+        <div>
+            
+            <h1>order your best fruits and vegetables anytime </h1>
+            <span>hey,our delicious products is waiting for you</span>
+            <label>we are always near to you with fresh item</label>
+            <button>shop now</button>
+            
+        </div>
+        
+            
+        
+        <div class="header-image">
+            <img src="circle-PhotoRoom.png-PhotoRoom.png" alt="">
+        </div>
+        
+        
+    </div>
+   
+
+
+
+
+    <!--new arrival-->
+    <section id="texts">
+        <div class="text">
+            <h2>Browse our Hottest</h2>
+            <h3>Categories</h3>
+            <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival">
+
+            <div class="new-arrival-container">
+                <img src="OIP (1).jpg" alt="">
+                <a href="fruits.html"><h3>Fruits</h3></a>
+            
+
+            </div>
+            <div class="new-arrival-container">
+                <img src="OIP (2).jpg" alt="">
+                <a href="vegetables.html"><h3>Vegetables</h3></a>
+
+            </div>
+            <div class="new-arrival-container">
+                <img src="OIP (3).jpg" alt="">
+                <a href="drinks.html"><h3>Drinks</h3></a>
+
+            </div>
+            <div class="new-arrival-container">
+                <img src="OIP (4).jpg" alt="">
+                <a href="nuts.html"><h3>Nuts</h3></a>
+                
+
+            </div>
+            <div class="new-arrival-container">
+                <img src="OIP (5).jpg" alt="">
+                <a href="spicy.html"><h3>Spices</h3></a>
+                
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <div class="hero">
+        <div class="heroimg">
+            <img src="girlsf-PhotoRoom.png-PhotoRoom.png" alt="">
+        </div>
+        <div class="herocont">
+            <h1>Best organic fruits and vegetables</h1>
+            <p> fruits and vegetables emerge as the colorful gems, enriching our lives with a symphony of flavors and a plethora of nutrients. </p>
+            <p> . Fruits, with their juicy sweetness, burst forth in an array of hues, each bite delivering a refreshing sensation that awakens the senses.  </p>
+           
+
+            <h4><i class="fa-solid fa-apple-whole"></i></i>fresh juice</h4>
+            <h4><i class="fa-solid fa-apple-whole"></i></i>organic fruits</h4>
+            <h4><i class="fa-solid fa-apple-whole"></i></i>healthy vegetables</h4>
+        </div>
+    </div>
+    <div class="glass">
+        <div class="glasscont">
+            <h1>variety of juices  and milkshake</h1>
+        <p>Life is full of choices, orange juice or apple juice</p>
+        <p> Freshly squeezed ideas make the best creative juices. </p>
+        <p> Juice up your day with positivity and good vibes</p>
+        <p>The sweetest juice is the one shared with friend</p>
+       
+        
+        
+        <h4><i class="fa-solid fa-martini-glass-citrus"></i></i>Cranberry Juice</h4>
+        <h4><i class="fa-solid fa-martini-glass-citrus"></i></i>Pomegranate Juice</h4>
+        <h4><i class="fa-solid fa-martini-glass-citrus"></i></i>Pineapple juice</h4>
+
+        </div>
+        
+        <div class="glimg">
+            <img src="thumb-1920-449143-PhotoRoom.png-PhotoRoom.png" alt="">
+        </div>
+       
+
+        
+    </div>
+    <div class="heros">
+        <div class="herosimg">
+            <img src="h-peanuts_2-PhotoRoom.png-PhotoRoom.png" alt="">
+        </div>
+        <div class="heroscont">
+            <h1>Best time to eat nuts</h1>
+            <p> Nuts are nature's way of making up for Mondays.</p>
+            <p> Sometimes you feel like a nut, sometimes you don't." - Almond Joy commercial slogan. </p>
+            <p>Life is like a bowl of mixed nuts. You never know what you're gonna get.</p>
+            <p>I'm just a cashew looking for my macadamia</p>
+           
+
+            <h4><i class="fa-solid fa-circle-check"></i>almonds</h4>
+            <h4><i class="fa-solid fa-circle-check"></i>brazilnuts</h4>
+            <h4><i class="fa-solid fa-circle-check"></i>cashews</h4>
+        </div>
+    </div>
+
+    <section id="prod">
+        <div class="text">
+            <h2>Most popular </h2>
+            <h3>Products</h3>
+            <button>shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrivals">
+            <div class="new-arrival-containers">
+                <img src="download.jpg" alt="">
+                <h3>orange</h3>
+                <p>Rs.100</p><i class="fa-solid fa-cart-shopping" onclick="shew()" id="stay"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="download (1).jpg" alt="">
+                <h3>Strawberry</h3>
+                <p>Rs.250</p><i class="fa-solid fa-cart-shopping" id="stay"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="pine.jpg" alt="">
+                <h3>Pineapple</h3>
+                <p>Rs.60</p><i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="potato.jpg" alt="">
+                <h3>Potato</h3>
+                <p>Rs.20</p><i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="carrot.jpg" alt="">
+                <h3>Carrot</h3>
+                <p>Rs.20</p><i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="OIP (6).jpg" alt="">
+                <h3>Apple</h3>
+                <p>Rs.200</p><i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="pump.jpg" alt="">
+                <h3>Pomegranate</h3>
+                <p>Rs.250</p><i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+            <div class="new-arrival-containers">
+                <img src="mango.jpg" alt="">
+                <h3>Mango</h3>
+                <p>Rs.70</p><i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+    </section>
+    <section id="about">
+        <div class="headers">
+            <div>
+                
+
+                <h1 class="style">About us </h1>
+                <div class="cl">
+                    <div class="p1">
+                        <p>repsta 24 is a modern International agricultural exchange.</p>
+                        <p>We gather the agricultural and fruit growing community in one place.</p>
+                        <p>In  producers and buyers can acquire commercial contacts</p>
+                        <p>and cooperate in an <b>easy and fast way</b> . You can add and view advertisement,</p>
+                        <p>In repsta24 producers and cooperate in an easy and fast way. </p>
+                            
+
+                    </div>
+                    <div class="p2">
+                       <h1>Who uses Repsta 24?</h1> 
+                    </div>
+                    <div class="p3">
+                        <ul>
+                            <li>fruits growers</li>
+                            <li>farmers</li>
+                            <li>Distributors of agricultural products</li>
+                            <li>Exporters of agricultural products</li>
+                            <li>Importers of agricultural products</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="btn"><button>learn more</button></div>
+
+
+                
+            </div>
+            <div class="header-images">
+                <img src="d3-PhotoRoom.png-PhotoRoom.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="customers" id="customers">
+        <h2>why customers's love us ?</h2>
+        <div class="customers-container">
+            <div class="box">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="stars" >
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eum impedit similique nesciunt, enim necessitatibus hic deleniti autem dicta ad?</p>
+                <div class="review-profile">
+                    <img src="steve-jobs-thinking-515059120297iwa9zqqxh.png" alt="">
+                <h3>steve</h3>
+                </div>                
+            </div>    
+            <div class="box">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eum impedit similique nesciunt, enim necessitatibus hic deleniti autem dicta ad?</p>
+                <div class="review-profile">
+                    <img src="girl-eating-carrot-with-horse-dbc.png" alt="">
+                <h3>fasella</h3>
+                </div>                
+            </div>    
+            <div class="box">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eum impedit similique nesciunt, enim necessitatibus hic deleniti autem dicta ad?</p>
+                <div class="review-profile">
+                    <img src="girls-uzj.png" alt="">
+                <h3>lasiraa</h3>
+                </div>                
+            </div> 
+           
+        </div>
+    </section>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<div class="containers">
+    <div class="checkout-form">
+        <h2>Checkout</h2>
+        
+        <!-- User Information -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="" required>
+        </div>
+
+        <!-- Shipping Address -->
+        <div class="form-group">
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" placeholder="Enter your shipping address" required></textarea>
+        </div>
+
+        <!-- Payment Information -->
+        <div class="form-group">
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" placeholder="" required>
+        </div>
+
+        
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <!-- Display the products in the order with their prices -->
+            <!-- You can dynamically generate this based on the user's cart -->
+
+            <p>Total: </p>
+        </div>
+
+        <!-- Submit Button -->
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<div class="shipp">
+    <div class="shipp1">
+        <h1>Secure Payment</h1>
+        <p>all services required to transport products purchased online</p>
+    </div>
+    <div class="shippbox">
+        <div class="shippbox1">
+            <i class="fa-solid fa-truck-fast" ></i>
+            <h2>free shipping</h2>
+            <p>with rs.500 above purchased </p>
+            <p>you will get freeshipping</p>
+
+        </div>
+        <div class="shippbox2">
+            <i class="fa-solid fa-credit-card"></i>
+            <h2>Secure payment</h2>
+            <p> payment processing information </p>
+            <p>service that provide</p>
+
+        </div>
+        <div class="shippbox3">
+            <i class="fa-regular fa-circle-check"></i>
+           
+            <h2>organic certified</h2>
+            <p>100% organic products</p>
+            
+
+        </div>
+        <div class="shippbox4">
+            <i class="fa-solid fa-shield"></i>
+            
+            <h2>safe delivery</h2>
+            <p>100% safe </p>
+          
+
+        </div>
+
+    </div>
+</div>
+
+
+    
+    
+        
+        
+    
+    <section id="contact">
+        <h1></h1>
+    <div class="bttns">
+        <div class="container">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit" id="color" onclick="changeColor()">Submit</button>
+            </form>
+            <div class="container1">
+                <h1>Reach us</h1>
+                <p><i class="fa-regular fa-envelope"></i>    repsta.@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>     9080870230</p>
+                <p><i class="fa-solid fa-house"></i>    riverroad west street</p>
+            </div>
+            <div class="cont3">
+                <h1>contact us</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur aut fuga distinctio id?</p>
+                <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        
+    </div>
+
+    </section>
+    
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <div class="boxo">
+                    <h3><i class="fa-brands fa-the-red-yeti"></i>
+                        Reps
+                    </h3><h2>ta</h2>
+                    <p>riverroad street</p>
+                    <div class="footer-icon-container">
+                    
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="boxt">
+                    <h2>Categories</h2>
+                    <p>fruits and Vegetables</p>
+                    <p>dairy products</p>
+                    <p>package food</p>
+                    <p>bevarage</p>
+                </div>
+                <div class="boxth">
+                    <h2>useful links</h2>
+                    <p>payments</p>
+                    <p>term of use</p>
+                    <p>account</p>
+                    <p>return policy</p>
+                </div>
+                <div class="boxf">
+                    <h2>News letter</h2>
+                    <p>get 10%discount</p>
+                    <input type="email" placeholder="your email">
+                </div>
+            
+            </div>
+            <p>repsta2024@gmail.com</p>
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script>
+        ScrollReveal({
+             reset: true,
+             distance: '60px',
+             duration:1500,
+             delay:300 
+        });
+        ScrollReveal().reveal('.header, .navbar, #texts, .hero, .glass, .heros, .new-arrival, #prod, #about, .customers, .containers, .container, .shipp, .footer ',  { delay: 500 ,origin:'left'});
+      
+    </script>
+    
+    
+</body>
+
+</html>
